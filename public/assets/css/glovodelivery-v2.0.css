@@ -1,0 +1,78 @@
+[class*=uk-width] {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.uk-grid>* {
+    -ms-flex: none;
+    -webkit-flex: none;
+    flex: none;
+    margin: 0;
+    float: left;
+}
+
+.uk-grid {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.uk-width-medium-5-10 {
+    width: 50%;
+}
+
+.glovo-map{
+    height:350px;
+    width:100%;
+}
+
+#glovo-map .gm-style-cc,  #glovo-map .gm-style-cc+div{ visibility: visible !important;}
+#glovo-map .gm-style > .gmnoprint > .gm-style-cc {     visibility: visible !important; top: 35px !important; left: 2px !important; width: 38px !important; height: 30px !important; }
+
+
+.shipping-glovo-delivery{
+    color:  #2A3035!important;
+    border: 2px solid #2abb9b;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Gotham,Arial,Helvetica Neue,Helvetica,sans-serif;
+    margin: 10px 0px;
+}
+
+.shipping-glovo-delivery .shipping-glovo-delivery-estimated{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    clear: both;
+}
+.shipping-glovo-delivery .shipping-glovo-delivery-estimated img{
+    vertical-align: middle;
+    width: 25px;
+}
+
+.shipping-glovo-delivery-icon-estimated{ float: left; width: 30px; margin-right: 8px;}
+.shipping-glovo-delivery .shipping-glovo-delivery-estimated .estimated-time{
+    vertical-align: middle;
+    font-size: 12px;
+    color: #4a4a4a;
+}
+
+.shipping-glovo-delivery .shipping-glovo-delivery-body{
+    color: #1b1e21;
+
+}
+
+.shipping-glovo-delivery .shipping-glovo-delivery-info{
+    font-size: 12px;
+    float: left;
+}
